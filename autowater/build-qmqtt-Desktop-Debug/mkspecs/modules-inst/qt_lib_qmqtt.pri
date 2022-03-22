@@ -1,0 +1,15 @@
+QT.qmqtt.VERSION = 1.0.0
+QT.qmqtt.name = QtQmqtt
+QT.qmqtt.module = Qt5Qmqtt
+QT.qmqtt.libs = $$QT_MODULE_LIB_BASE
+QT.qmqtt.includes = $$QT_MODULE_INCLUDE_BASE $$QT_MODULE_INCLUDE_BASE/QtQmqtt
+QT.qmqtt.frameworks =
+QT.qmqtt.bins = $$QT_MODULE_BIN_BASE
+QT.qmqtt.depends = core network
+QT.qmqtt.uses =
+QT.qmqtt.module_config = v2
+QT.qmqtt.DEFINES = QT_QMQTT_LIB
+QT.qmqtt.enabled_features =
+QT.qmqtt.disabled_features =
+QT_CONFIG +=
+QT_MODULES += qmqtt

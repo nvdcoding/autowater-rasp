@@ -1,0 +1,11 @@
+QT.qmqtt_private.VERSION = 1.0.0
+QT.qmqtt_private.name = QtQmqtt
+QT.qmqtt_private.module =
+QT.qmqtt_private.libs = $$QT_MODULE_LIB_BASE
+QT.qmqtt_private.includes = $$QT_MODULE_INCLUDE_BASE/QtQmqtt/1.0.0 $$QT_MODULE_INCLUDE_BASE/QtQmqtt/1.0.0/QtQmqtt
+QT.qmqtt_private.frameworks =
+QT.qmqtt_private.depends = qmqtt
+QT.qmqtt_private.uses =
+QT.qmqtt_private.module_config = v2 internal_module
+QT.qmqtt_private.enabled_features =
+QT.qmqtt_private.disabled_features =

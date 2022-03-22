@@ -1,0 +1,6 @@
+QMAKE_PRL_BUILD_DIR = /home/pi/autowater/build-qmqtt-Desktop-Debug/tests/gtest/gtest
+QMAKE_PRO_INPUT = gtest.pro
+QMAKE_PRL_TARGET = libgtest.so.1.0.0
+QMAKE_PRL_CONFIG = lex yacc debug depend_includepath testcase_targets import_plugins import_qpa_plugin qt_build_extra file_copies qmake_use qt warn_on link_prl incremental shared linux unix posix gcc compile_examples enable_new_dtags largefile precompile_header nostrip prefix_build force_independent utf8_source create_prl link_prl prepare_docs qt_docs_targets no_private_qt_headers_warning QTDIR_build qt_example_installs exceptions_off testcase_exceptions explicitlib warning_clean debug qml_debug have_target dll debug_info thread moc resources
+QMAKE_PRL_VERSION = 1.0.0
+QMAKE_PRL_LIBS = -lQt5Core -lpthread -latomic
